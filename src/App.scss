@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Rotterburg Stylish FREE';
+  src: url('./assets/fonts/RotterburgStylishFREE-Regular.woff2') format('woff2'),
+      url('./assets/fonts/RotterburgStylishFREE-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url('./assets/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+      url('./assets/fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Steinbeck';
+  src: url('./assets/fonts/SteinbeckFC-Reg.woff2') format('woff2'),
+      url('./assets/fonts/SteinbeckFC-Reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Steinbeck';
+  src: url('./assets/fonts/SteinbeckFC-GrasObl.woff2') format('woff2'),
+      url('./assets/fonts/SteinbeckFC-GrasObl.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Steinbeck';
+  src: url('./assets/fonts/SteinbeckFC-Gras.woff2') format('woff2'),
+      url('./assets/fonts/SteinbeckFC-Gras.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Visuelt Pro';
+  src: url('./assets/fonts/VisueltPro-Light.woff2') format('woff2'),
+      url('./assets/fonts/VisueltPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #191919;
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
+  font-weight: 400;
+  font-family: 'Steinbeck', sans-serif;
+  overflow-x: hidden;
+}
+
+#root{
+  min-height: 100vh;
+}
+
+.container{
+  width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #191919;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #c9ac8c;
+}

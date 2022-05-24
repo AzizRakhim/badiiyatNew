@@ -1,0 +1,16 @@
+.category__item{
+  margin-right: 69px;
+}
+
+.category__btn{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  transition: all 0.3s ease;
+
+  &:hover{
+    color: #c9ac8c;
+  }
+}

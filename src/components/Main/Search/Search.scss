@@ -1,0 +1,59 @@
+.search{
+  width: 100%;
+  max-width: 1115px;
+  margin: 0 auto;
+  background: #191919;
+  box-shadow: 0px 4px 77px #00000040;
+  border-radius: 15px;
+  padding: 40px 86px 36px 144px;
+  position: relative;
+  margin-top: -51px;
+  z-index: 20;
+}
+
+.search__title{
+  font-family: 'Rotterburg Stylish FREE', sans-serif;
+  font-size: 31px;
+  line-height: 34px;
+  color: #c9ac8c;
+  margin-bottom: 13px;
+}
+
+.search__input{
+  background: #404040;
+  border-radius: 15px;
+  padding-top: 17px;
+  padding-bottom: 14px;
+  padding-left: 28px;
+  border: none;
+  width: 100%;
+  max-width: 710px;
+  color: #fff;
+  margin-right: 15px;
+
+  &::placeholder{
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff4d;
+  }
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.search__btn{
+  padding: 12px 48px 12px 37px;
+  background: #C9AC8C;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3c2710;
+
+  .bx{
+    margin-right: 7px;
+    font-size: 20px;
+    color: #3c2710;
+  }
+}

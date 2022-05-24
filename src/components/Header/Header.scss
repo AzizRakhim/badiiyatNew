@@ -1,0 +1,95 @@
+.header{
+  border: 1px solid #ffffff1a;
+}
+
+.header__logo-box{
+  margin-right: 502px;
+}
+
+.header__logo-link{
+  font-size: 25px;
+  line-height: 144.4%;
+  color: #c9ac8c;
+  text-decoration: none;
+  font-family: 'Rotterburg Stylish FREE', sans-serif;
+
+  &:hover{
+    color: #c9ac8c;
+  }
+}
+
+.header__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__item{
+  padding: 28px 0;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+
+  &:not(:last-child){
+    margin-right: 44px;
+  }
+
+  &:hover{
+    border-bottom: 2px solid #fff;
+
+    .header__item-link{
+      color: #fff;
+    }
+  }
+}
+
+.header__item-link{
+  padding: 32px 0;
+}
+
+.header__item-link{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: #fff;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  text-decoration: none;
+}
+
+.header__btns{
+  margin-left: 56px;
+}
+
+.header__user-btn{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  margin-right: 11px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+
+.header__arrow-btn{
+  background-color: transparent;
+  border: none;
+
+  .bx{
+    color: #ffffff80;
+    font-size: 30px;
+  }
+}
+
+.header__space{
+  margin-left: auto;
+}
+
+.navActive{
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}

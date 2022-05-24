@@ -1,0 +1,276 @@
+.whole-wrapper{
+  overflow: hidden;
+}
+
+.nasrbook{
+  padding-top: 58px;
+  padding-bottom: 65px !important;
+  overflow: hidden;
+}
+
+.nasrbook__left{
+  height: 810px;
+  max-height: 810px;
+  border-radius: 15px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+.nasrbook__right{
+  padding-left: 46px;
+}
+
+.nasrbook__title{
+  font-family: 'Rotterburg Stylish FREE';
+  font-size: 48px;
+  line-height: 53px;
+  color: #c9ac8c;
+  margin-bottom: 13px;
+}
+
+.nasrbook__rating-box{
+  font-size: 16px;
+  line-height: 16px;
+  color: #c9ac8c;
+  margin-bottom: 40px;
+
+  .bxs-star{
+    color: #fff;
+    margin-right: 7px;
+  }
+}
+
+.nasrbook__border{
+  font-family: 'Visuelt Pro';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 144.4%;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.nasrbook__rating{
+  font-family: 'Visuelt Pro';
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 144.4%;
+  color: #ffffff99;
+}
+
+.nasrbook__page{
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  margin-bottom: 20px;
+}
+
+.bottom{
+  margin-bottom: 48px;
+}
+
+.nasrbook__page-num{
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nasrbook__data{
+  font-size: 16px;
+  line-height: 16px;
+  color: #c9ac8c;
+  margin-bottom: 48px;
+
+  .bx{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 11px;
+    margin-right: 19px;
+  }
+
+  &::after{
+    display: inline-block;
+    content: "";
+    width: 70%;
+    height: 1px;
+    background-color: #c9ac8c99;
+  }
+}
+
+.nasrbook__info{
+  font-size: 16px;
+  line-height: 144.4%;
+  color: #ffffffcc;
+  margin-bottom: 47px;
+}
+
+.nasrbook__format{
+  font-size: 16px;
+  line-height: 16px;
+  color: #c9ac8c;
+  margin-bottom: 30px;
+}
+
+.nasrbook__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  .bx{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+}
+
+.nasrbook__item{
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.nasrbook__price{
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff99;
+  margin-top: 8px;
+}
+
+.nasrbook__btn-holder{
+  display: flex;
+  margin-left: auto;
+}
+
+.nasrbook__btn{
+  font-size: 16px;
+  line-height: 16px;
+  color: #3c2710;
+  display: inline-block;
+  padding: 16px 32px;
+  background: #C9AC8C;
+}
+
+.nasrbook__comment-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 51px;
+}
+
+.nasrbook__comment-item:not(:last-child){
+  margin-right: 69px;
+}
+
+.nasrbook__comment-btn{
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff99;
+  border: none;
+  background-color: transparent;
+
+  &.active{
+    color: #c9ac8c;
+  }
+}
+
+.nasrbook__remark-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 71px;
+}
+
+.nasrbook__remark-item{
+  width: 708px;
+  height: 213px;
+  background: linear-gradient(263.94deg, #161616 0%, #1E1E1E 98.06%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 41px;
+  position: relative;
+
+  .nasrbook__remark-border{
+    width: 100%;
+    max-width: 566px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    position: relative;
+  }
+
+  &:not(:last-child){
+    margin-right: 31px;
+  }
+}
+
+.quotation{
+  font-family: 'Love Light', cursive;
+  font-size: 300px;
+  line-height: 316px;
+  color: #c9ac8c;
+  position: absolute;
+  top: -70px;
+  left: 0;
+}
+
+.nasrbook__remark-btns{
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+}
+
+.nasrbook__remark-btn{
+  border: none;
+  background-color: transparent;
+
+  .bx{
+    color: #fff;
+    font-size: 20px;
+  }
+
+  &:first-child{
+    margin-right: 12px;
+  }
+}
+
+.nasrbook__more-box{
+  margin-bottom: 66px;
+}
+
+.nasrbook__suggestion{
+  font-size: 25px;
+  line-height: 25px;
+  color: #c9ac8c;
+}
+
+.nasrbook__more-btn{
+  font-size: 25px;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+
+.nasrbook__list-people{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+

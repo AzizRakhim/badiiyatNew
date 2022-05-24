@@ -1,0 +1,15 @@
+.slider__item{
+  cursor: pointer;
+
+  &:not(:last-child){
+    margin-right: 10px;
+  }
+}
+
+.slider__btn{
+  width: 57px;
+  height: 3px;
+  background: #ffffff99;
+  border-radius: 10px;
+  border: none;
+}
