@@ -4,8 +4,8 @@ import CategoryItem from './CategoryItem/CategoryItem';
 import CategoryPeople from './CategoryPeople/CategoryPeople';
 
 function Category(props) {
-  let categoryArr = ["All", "Jahon adabiyoti", "Jadid davri", "Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"];
-  let typeArr = ["all", "jahon", "jadid", "diniy", "o'zbek", "biznes"];
+  let categoryArr = ["All", "Jahon adabiyoti","Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"];
+  let typeArr = ["all", "jahon", "diniy", "o'zbek", "biznes"];
 
   return (
     <section className='category'>

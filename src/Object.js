@@ -6101,6 +6101,892 @@ let obj = [{
       },
     ]
   },
+  {
+    id : "57",
+    name : "Alisher",
+    lastName : "Navoiy",
+    born : 1441,  
+    bornDate : 9,
+    bornMonth : "Feb",
+    died : 1501,
+    diedDate : 3,
+    diedMonth : "Jan",
+    books : 55,
+    audio : 23,
+    genre : "o'zbek",
+    img : "https://xs.uz/upload/post/2018/04/05/189a3b5c409afb57c085e2f36a7bd8b00405.jpg",
+    desc : `Alisher Navoiy (9-fevral 1441-yil — 3-yanvar 1501-yil) — ulugʻ oʻzbek va boshqa turkiy xalqlarning shoiri, mutafakkiri va davlat arbobi boʻlgan.[1][2][3] Gʻarbda chigʻatoy adabiyotining buyuk vakili deb qaraladi, sharqda „nizomi millati va din“ (din va millatning nizomi) unvoni bilan ulugʻlanadi.
+
+    Ali Yazdiy nazariga tushgan, Mavlono Lutfiy yosh shoir isteʼdodiga yuqori baho bergan, Kamol Turbatiy eʼtirofini qozongan. Sayyid Hasan Ardasher, Pahlavon Muhammad kabi ustozlardan taʼlim olgan, Abdurahmon Jomiy bilan ijodiy hamkorlikda boʻlgan. Navoiy 1469-yilgacha temuriylar orasidagi ichki nizolar sababli Hirotdan yiroqroqda yashagan.`,
+    jobs : `Алишер Навоий ижодининг юксак чўққиси “Хамса” асари (1483-85)дир, шоир биринчилардан бўлиб, туркий тилда тўлиқ “Хамса” яратди ва туркий тилда шундай кўламдор асар ёзиш мумкинлигини исботлаб берди. “Хамса” таркибига “Ҳайратул-аброр”, “Фарҳод ва Ширин”, “Лайли ва Мажнун”, “Сабъаи сайёр”, “Садди Искандарий” каби достонлар киради.`,
+    location : "Gerat, Afganistan",
+    bookObj : [
+      {
+        bookId : "225",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bc073a51a.jpg.webp",
+        bookName : "Hamza",
+        bookRating : 5,
+        bookGenre : "badiiy",
+        bookSenario : "o'zbek",
+        published : 2019,
+        bookPage : 496,
+        nashriyot : "Yangi asr avlodi nashri",
+        bookInfo : `
+        Алишер Навоий ижодининг юксак чўққиси “Хамса” асари (1483-85)дир, шоир биринчилардан бўлиб, туркий тилда тўлиқ “Хамса” яратди ва туркий тилда шундай кўламдор асар ёзиш мумкинлигини исботлаб берди. “Хамса” таркибига “Ҳайратул-аброр”, “Фарҳод ва Ширин”, “Лайли ва Мажнун”, “Сабъаи сайёр”, “Садди Искандарий” каби достонлар киради.`,
+        
+        bookInfoTwo : `
+
+        Бугун ўзбек интернети яна бир катта манба билан бойиди.
+        Алишер Навоийнинг «Хамса» асари илк бор онлайн оламга тўлиқ жойланди.
+        Марҳамат азизлар, буюк шоиримизнинг маънавият гулшанидан баҳраманд бўлинг:
+        Жами 54 минг мисрадан иборат Навоийнинг «Хамса»си 1483-1485 йилларда ёзилган бўлиб, беш достондан иборат. Улар қуйидагилар:
+        1. «Ҳайрат ул – аброр» («Яхши кишиларнинг ҳайратланиши»). Асар 7976 мисра (3988 байт) бўлиб, 64 боб, 20 мақолатдан иборат. Булардан 21 боби муқаддима, 40 боби — 20 мақолат ва 20 ҳикоя ҳамда масал, сўнгги уч боби эса асар хотимасидир. «Ҳайрат ул – аброр» 1483 йилда арузнинг сариъ баҳрида ёзилган бўлиб, анъанавий муқаддима – «ҳамд ва наът» билан бошланади.
+        `,
+        bookPrice : "35 000 so’m",
+        audioTime : "8:10 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "226",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/5e15bff5cfe1f.jpg.webp",
+        bookName : "Nasoyim Ul-Muhabbat",
+        bookRating : 4.7,
+        bookGenre : "o'zbek",
+        bookPage : 230,
+        published : 2020,
+        bookSenario : "Badiiy",
+        nashriyot : "O'zbekiston nashr",
+        bookInfo : `
+        Алишер Навоийнинг «Насойим ул-муҳаббат мнн шамойим ул-футувват» асари илк бор арабий, форсий матнлар, уларнинг таржималари ва изоҳлари билан тўлиқ ҳолда нашр этилмоқда. Асар муқаддима ва 770 та шайх (35 таси авлиё аёллар)иинг ҳаёти ва фаолиятига бағишланган. Илгарнги нашрида (1968) атиги 153 та шайхлар ҳақида маълумот берилиб, айрим диний ва тасаввуфий атамалар маълум сабабларга кўра туширилиб қолдирилган эди.`,
+        
+        bookInfoTwo : `
+
+        «Насойим ул-муҳаббат Абдурраҳмон Жомийнинг «Нафаҳот ул-унс мин ҳазарот ил-қудс» тазқирасининг таржимаси, лекин Навоий Жомий асарига эркин, ижодий муносабатда. бўлади ва унинг асаридаги маълумотларни тўлдириб ёхуд қисқартириб боради ва 618 та шайхлар сонини 770 тага етказади. Тарих ва маданий меросимизни кенг ўрганаётган ҳамда нақшбандийлик таълимотига рағбат кўрсатаётган эканмиз, бу асарни тўлиқ ҳолда нашр этилишн илмий, маърифий ва ахлоқий аҳамиятга эга. Айниқса, Имом Аъзам, Имом Мотуридий, Аҳмад Яссавий, Ҳаким Тирмизий, Баҳоуддин Нақшбандийларнинг ақида ва қарашлари билан халқимизни, хусусан, ёшларимизни яқиндан таништириш жойиздир.
+        `,
+        bookPrice : "29 000 so’m",
+        audioTime : "4:30 soat",
+        electron : "pdf, epub"
+      },
+      {
+        bookId : "227",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/fe441a2890346117084cb1c0475bbeb520201017152825576222985FLcOVv.jpg.webp",
+        bookName : "So'z chamani",
+        bookRating : 3.4,
+        bookGenre : "o'zbek",
+        bookPage : 128,
+        published : 2018,
+        bookSenario : "Badiiy",
+        nashriyot : "Akademnashr",  
+        bookInfo : `
+        "So'z chamani" turkum kitoblarining ilk risolasi Hazrat Alisher Navoiy g'azallaridan tuzildi. Ko'hna turkiy-o'zbek yozuvining "alif"idan boshlab "yo"siga qadar, barcha harflariga oid she'rlardan saralab olishga harakat qilindi..`,
+        
+        bookInfoTwo : `
+
+        «Soʻz chamani» turkum kitoblarining navbatdagi risolasi ozarbayjon xalqining otashin shoiri, oshiqi sodiq - hazrat Muhammad Fuzuliy she'rlaridan tuzildi. Zarofat, fasohat va hikmat sohibi boʻlgan bu valiy zotning she'riyati barcha turkiy xalqlar orasida tarjimasiz holda sevib oʻqiladi. Majmuani tuzishda marhum alloma Xolid Rasul nashridan istifoda etildi.
+        `,
+        bookPrice : "7 500 so’m",
+        audioTime : "2:23 soat",
+        electron : "pdf"      
+      },
+      {
+        bookId : "228",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/22f61c59d6efa44c12fc5514db0b38132020102215044358569pvingUhnDi.jpg.webp",
+        bookName : "Muhokamatu-l-lug‘atayn",
+        bookRating : 4.5,
+        bookGenre : "o'zbek",
+        bookPage : 128,
+        published : 2018,
+        bookSenario : "Badiiy",
+        nashriyot : "Akademnashr",
+        bookInfo : `
+        Гениальный мыслитель Алишер Навои пять веков тому назад в своей монографии  Muhokamatu-l-lug’atayn (Суждение о двух языках) основанный на сравнительном анализе языков заложил основу в мировой лингвистике абсолютно новое научное направление – компаративистика. Учёный при помощи этой работы выработал в сравнительной лингвистике методы исследований, анализа, методологическую базу. Вплоть до нынешних времён этот научный первоисточник в анализе и методов исследования занимает достойное место в современной лингвистике.`,
+        
+        bookInfoTwo : `
+
+        Научный исследования, основанные на новой научной направлении отцом основателем, которого является Алишер Навои провели в Европе лишь в первой половине XIX веке и оно в истории лингвистики заняло место под названием историко-сравнительная лингвистика. На сегодняшний день это направление науки в современной лингвистике занимает солидное место.
+        `,
+        bookPrice : "27 000 so’m",
+        audioTime : "4:10 soat",
+        electron : "pdf"
+      }
+    ]
+  },
+
+  {
+    id : "58",
+    name : "Xudoyberdi ",
+    lastName : "To'xtaboyev",
+    born : 1932,  
+    bornDate : 17,
+    bornMonth : "Dec",
+    died : 2021,
+    diedDate : 21,
+    diedMonth : "March",
+    books : 62,
+    audio : 14,
+    genre : "o'zbek",
+    img : "https://aniq.uz/photos/news/zigAwnaRcIutTa9.jpeg",
+    desc : `Xudoyberdi Toʻxtaboyev (1932-yil 17-dekabr, Oʻzbekiston tumani — 2021-yil 21-mart[1]) — Oʻzbekiston xalq yozuvchisi (1991). Oʻzbekistonda xizmat koʻrsatgan madaniyat xodimi (1982). Qoʻqon pedagogika bilim yurtini (1949), Oʻrta Osiyo universitetini tugatgan (1955). Oʻrta maktabda oʻqituvchi va direktor (1955— 58), 
+
+    Xudoyberdi Toʻxtaboyev oʻzbek bolalar adabiyotini jahon miqyosiga olib chiqqan ijodkorlardan biridir. Asarlari dunyoning koʻpgina tillariga tarjima qilingan. Hamza nomidagi Oʻzbekiston Davlat mukofoti laureati (1989).
+    Oʻzbek bolalar yozuvchisi, Oʻzbekiston Respublikasida xizmat koʻrsatgan madaniyat xodimi, Oʻzbekiston xalq yozuvchisi Xudoyberdi Toʻxtaboyev 2021-yil 21-mart kuni 88 yoshda vafot etdi[1]. Shavkat Mirziyoyev yozuvchining vafoti munosabati bilan hamdardlik bildirgan.`,
+    jobs : ` Xudoyberdi Toʻxtaboyev oʻzbek bolalar adabiyotini jahon miqyosiga olib chiqqan ijodkorlardan biridir. Asarlari dunyoning koʻpgina tillariga tarjima qilingan. Hamza nomidagi Oʻzbekiston Davlat mukofoti laureati.`,
+    location : "Farg'ona , Uzbekiston",
+    bookObj : [
+      {
+        bookId : "229",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/d94e18a8adb4cc0f623f7a83b1ac75b42021090311544060290Dal1OKa7t7.jpg.webp",
+        bookName : "Mungli ko'zlar",
+        bookRating : 4.2,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2018,
+        bookPage : 304,
+        nashriyot : "Yangi asr avlodi nashri",
+        bookInfo : `
+        Ota-onaga farzandining baxtidan bo‘lak neʼmat kerak emas. Xuddi shuningdek, farzand ham eng baxtiyor damlarida ota-ona yonida bo‘lgisi, baxtini ular bilan baham ko‘rgisi keladi. Ota-ona diydori, ota-ona mehrini ular har narsadan aziz biladilar.`,
+        
+        bookInfoTwo : `
+
+        Qimmatli kitobxon! Sevimli yozuvchimiz Xudoyberdi To‘xtaboyevning siz - aziz kitobsevar do‘stlarimiz uchun taqdim etilayotgan mazkur kitobida ana shu mavzu qalamga olingan. Asarning yozilganiga ancha fursat o‘tgan bo‘lishiga qaramay, u badiiy qimmatini hamon yo‘qotmagan, aksincha, har bir kitobxon ushbu asarni har gal qo‘liga o‘zgacha mehr va iztirob bilan oladi.
+
+        Mol-dunyoni har narsadan uchun bilgan va oxir-oqibatda guldek farzandlarining achchiq qismatiga sabab bo‘lgan ota-ona haqida hikoya qiluvchi mazkur asar, umid qilamizki, yana bir karra o‘zining yangi o‘quvchilarini kashf etadi.
+        `,
+        bookPrice : "25 000 so’m",
+        audioTime : "3:10 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "230",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/363763e5c3dc3a68b399058c34aecf2c2021092512041635287gxdtTx2hrN.jpg.webp",
+        bookName : "Quyonlar saltanati",
+        bookRating : 3.6,
+        bookGenre : "o'zbek",
+        bookPage : 248,
+        published : 2016,
+        bookSenario : "Badiiy",
+        nashriyot : "Ziyo nashr",
+        bookInfo : `
+        Bolalar adabiyotining chinakam fidoyi ijodkori Xudoyberdi To‘xtaboyevning bolajonlarimizga atalgan navbatdagi tuhfasi ham o‘ziga xos badiiy qimmatga sazovor asar, desak mubolag‘a qilmagan bo‘lamiz.`,
+        
+        bookInfoTwo : `
+
+        Ikki yosh o‘spirin yigitning orzulari, ularni tengdoshlaridan ajratib turadigan fazilatlari, qalamga olingan har bir voqea-hodisaning zamiridagi yaxshilikka, ezgulikka undash istagining mavjudligi, о‘ylaymizki, bu gal ham kitobsevar muxlislarimizni quvontiradi. Shu bilan birga kitob qahramonlariga o'xshash istagi ularning ham qalbida paydo bo‘lsa, biz oldimizni maqsadimiz sari bir qadam oldinga tashlaganmiz, deb hisoblaymiz.
+        `,
+        bookPrice : "11 000 so’m",
+        audioTime : "2:50 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "231",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/b96b6ef511a43a1c18545b2c0c305c1f20210417160539151267InK7Oi5Y1.jpg.webp",
+        bookName : "Sariq devni minib",
+        bookRating : 4.7,
+        bookGenre : "o'zbek",
+        bookPage : 544,
+        published : 2014,
+        bookSenario : "Badiiy",
+        nashriyot : "Yangi Asr Avlodi",  
+        bookInfo : `
+        O‘zbekiston xalq yozuvchisi, bolalarning sevimli adibi X.To‘xtaboyevning asarlari nafaqat respublikamizda, balki chet ellarda ham maʼlum va mashhurdir`,
+        
+        bookInfoTwo : `
+
+        "Sariq devni minib" sarguzasht romani bolalar hayotidan olib yozilgan bo‘lib, ularning sevimli kitoblaridan hisoblanadi. Bu asarda orzu-havasga eltadigan chinakam yo‘l halol mehnat, yaxshi xulq-odob va qunt bilan o‘qishda ekanligi taʼkidlanadi.
+        `,
+        bookPrice : "29 000 so’m",
+        audioTime : "6:23 soat",
+        electron : "pdf, ebook"      
+      },
+      {
+        bookId : "232",
+        bookImg : "https://kitobxon.com/img_knigi/s7380.jpg",
+        bookName : "Qo‘lga tushmas qasoskor",
+        bookRating : 4.8,
+        bookGenre : "o'zbek",
+        bookPage : 144,
+        published : 2020,
+        bookSenario : "Badiiy",
+        nashriyot : "Yangi Nashr",
+        bookInfo : `
+        Kitob mahsulotlarining xarakteristikalari, yetkazib berish shartlari, tashqi ko'rinishi va rangi haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan va joylashtirilgan paytda mavjud bo'lgan eng so'nggi ma'lumotlarga asoslanadi.`,
+        
+        bookInfoTwo : `
+
+        Mazkur asarda o‘zbek xalqining tarixida o'chinas iz qoldirgan, xalq
+       ozodlik harakatiga boshchilik qilgan qahramonlaridan biri Namoz botir
+        haqida so‘z boradi.
+        Keng kitobxonlar ommasida katta qiziqish uyg‘otgan ushbu
+        roman adabiyotimiz xazinasiga qo'shilgan nodir javohirlardan biri
+        hisoblanadi.
+
+        `,
+        bookPrice : "7 600 so’m",
+        audioTime : "2:10 soat",
+        electron : "pdf"
+      }
+    ]
+  },
+
+  {
+    id : "59",
+    name : "Muhammad",
+    lastName : "Yusuf",
+    born : 1954,  
+    bornDate : 26,
+    bornMonth : "Apr",
+    died : 2001,
+    diedDate : 31,
+    diedMonth : "July",
+    books : 36,
+    audio : 32,
+    genre : "o'zbek",
+    img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5sH-VHa4eNtMFsfkEBWsr0xlCD574E1vCFWxJFiXxFFeJmJ66v0yK5AftPMZ7897hT8I&usqp=CAU",
+    desc : `Muhammad YuSUF 1954 yil 26 aprelda Andijon viloyatining Marhamat tumanida tug‘ilgan.
+
+    Shoirning dastlabki she’rlari 1976 yili «O‘zbekiston adabiyoti va san’ati» haftaligida bosilgan. Birinchi kitobi «Tanish teraklar» nomi bilan 1985 yilda chop etiladi. So‘ng uning «Bulbulda bir gapim bor», «Iltijo», «Uyqudagi qiz», «Ko‘nglimda bir yor», «Erka kiyik» nomli qator she’riy to‘plamlari nashr qilinadi.`,
+    jobs : ` Mazkur to‘plamlarga kirgan she’rlarida shoir o‘zi mansub bo‘lgan avlodning eng olijanob va yuksak insoniy fazilatlari bilan birga ular qalbidagi yoshlik sururini, ishq va muhabbatning ajib tug‘yonlarini samimiy ohanglarda yonib kuyladi.`,
+    location : "Andijon, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "233",
+        bookImg : "https://kitobxon.com/img_knigi/s3000.jpg",
+        bookName : "Xalq bo‘l, elim",
+        bookRating : 4.4,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2012,
+        bookPage : 288,
+        nashriyot : "O'zbekiston NMIU",
+        bookInfo : `
+        Kitob mahsulotlarining xarakteristikalari, yetkazib berish shartlari, tashqi ko'rinishi va rangi haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan`,
+        
+        bookInfoTwo : `
+        Va joylashtirilgan paytda mavjud bo'lgan eng so'nggi ma'lumotlarga asoslanadi.
+        `,
+        bookPrice : "26 000 so’m",
+        audioTime : "5:20 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "234",
+        bookImg : "https://kitobxon.com/img_knigi/s5228.jpg",
+        bookName : "Quyoshga qarab oqqan suv",
+        bookRating : 4.6,
+        bookGenre : "o'zbek",
+        bookPage : 232,
+        published : 2018,
+        bookSenario : "Badiiy",
+        nashriyot : "Nurafshon Business",
+        bookInfo : `
+        Kitoblari va she’rlari: «Tanish teraklar» (1985, birinchi to‘plami), «Bulbulga bir gapim bor» (1987), «Iltijo» (1988), «Uyqudagi qiz» (1989), «Halima enam allalari» (1989), «Ishq kemasi» (1990)
+        `,
+        
+        bookInfoTwo : `
+        «Ko‘nglimda bir yor» (1990), «Bevafo ko‘p ekan» (1991), «Erka kiyik» (1992), «Osmonimga olib ketaman», «Kumush», «Kokilingni kim kesdi», «Aldov», «Turkman qiz», «Yur, Muhammad, ketdik bu yerdan», «Yolg‘onchi yor», «Qora quyosh» (doston) va boshq.
+        `,
+        bookPrice : "25 000 so’m",
+        audioTime : "5:25 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "235",
+        bookImg : "https://kitobxon.com/img_knigi/s708.jpg",
+        bookName : "Shoir sevgisi",
+        bookRating : 3.6,
+        bookGenre : "o'zbek",
+        bookPage : 196,
+        published : 2017,
+        bookSenario : "Badiiy",
+        nashriyot : "Noshir",  
+        bookInfo : `
+        Ушбу тўпламда М.Юсуфнинг турли даврларда ёзган шеърларидан саралаб олинди.`,
+        
+        bookInfoTwo : `
+
+        Тўплам "Қизлар қўшиғи", "Сени ҳеч ким севолмайди менингдек", "Қизғалдоғим" деган бобчалардан иборат бўлиб, муҳаббат, табиат мавзуларидаги шеърлар жамланган.
+        `,
+        bookPrice : "22 000 so’m",
+        audioTime : "3:45 soat",
+        electron : "pdf"      
+      },
+      {
+        bookId : "236",
+        bookImg : "https://kitobxon.com/img_knigi/s482.jpg",
+        bookName : "Saylanma",
+        bookRating : 3.5,
+        bookGenre : "o'zbek",
+        bookPage : 272,
+        published : 2021,
+        bookSenario : "Badiiy",
+        nashriyot : "Sharq",
+        bookInfo : `
+        Ўзбекистон халқ шоири марҳум Муҳаммад Юсуф номини
+        билмаган, лоақал у ёзган шеърларнинг бир сатрини хиргойи
+        қилмаган юртдошимиз йўқ бўлса керак.`,
+        
+        bookInfoTwo : `
+
+        «Сайланма»нинг ушбу
+        тузатилган қайта нашрига шоирнинг китобхонлар томонидан
+        самимий қаршиланган энг сара шеърлари, «Кўхна қудуқ» ва
+        «Қора қуёш» достонлари, шу
+
+        `,
+        bookPrice : "21 500 so’m",
+        audioTime : "6:10 soat",
+        electron : "pdf, ebook"
+      }
+    ]
+  },
+
+  {
+    id : "60",
+    name : "Abdulla",
+    lastName : "Oripov ",
+    born : 1941,  
+    bornDate : 21,
+    bornMonth : "March",
+    died : 2016,
+    diedDate : 5,
+    diedMonth : "Nov",
+    books : 24,
+    audio : 4,
+    genre : "o'zbek",
+    img : "https://ilmlar.uz/wp-content/uploads/2021/05/Abdulla-oripov-tarjimai-hol.jpg",
+    desc : `Abdulla Oripov — ardoqli oʻzbek shoiri va jamoat arbobi. Zamonaviy oʻzbek sheʼriyatida inson qalbidagi murakkablik va ziddiyatlarni teran, haqqoniy oʻziga xos betakror kuylagan taniqli ijodkor. Oripov hozirgi oʻzbek sheʼriyatiga yangicha badiiy tafakkur yoʻsinlarini olib kirdi. U tub mohiyati bilan Yassaviy, Navoiy, Bobur, Choʻlpon, Gʻafur Gʻulom singari ijodkorlar badiiy anʼanalarining davomchisi hisoblanadi. Shoir Oʻzbekiston Respublikasi Davlat madhiyasi sheʼri muallifidir.`,
+
+    jobs : `Abdulla Oripov 1941-yilning 21-martida Qashqadaryo] viloyati, Koson tumanidagi Nekoʻz qishlogʻida tugʻildi. Qishloq Qoʻngʻirtov etagiga oʻrnashgan boʻlib, oqar suv taqchil boʻlsa-da, seryomgʻir kelgan yillarda koʻkat-u maysalarga koʻmilib qoladigan kengish joy edi..`,
+    location : "Qashqadaryo, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "237",
+        bookImg : "https://kitobxon.com/img_knigi/s7343.jpg",
+        bookName : "Zamondoshlari xotirasida",
+        bookRating : 3.8,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2015,
+        bookPage : 576,
+        nashriyot : "G'afur G'ulom",
+        bookInfo : `
+        “Эътироф” китобига устозга бағишлаб шеърият мухлислари, шогирдлари, шоир дўстлари томонидан ёзилган шеърий эҳтиромларини жамладим, – дейди шоира Фароғат Худоқулова. – Унга бошида муаллифлардан 500га яқин шеърлар тушди. Шундан 100дан ортиқ энг сараларини танлаб олдик. Шеърларда акс эттирилган соғинч ва ўкинч туйғулари халқнинг буюк шоиримизга бўлган меҳр ва ҳурмати белгисидир.`,
+        
+        bookInfoTwo : `
+        “Шоирнинг туғилиши” номли китобга киритилган шеърлар шоирнинг “эълон қилинмаган шеърлар” туркумидан жамланган, – дея таъкидлади Ёзувчилар уюшмаси аъзоси Нурбой Жабборов. – Унга айрим шеърларнинг қўлёзмалари ҳам жойлаштирилган
+        `,
+        bookPrice : "23 500 so’m",
+        audioTime : "3:15 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "238",
+        bookImg : "https://kitobxon.com/img_knigi/s1329.jpg",
+        bookName : "Istiqlol manzaralari",
+        bookRating : 4.9,
+        bookGenre : "o'zbek",
+        bookPage : 64,
+        published : 2019,
+        bookSenario : "Badiiy",
+        nashriyot : "Tafakkur",
+        bookInfo : `
+        Йигирма йил йўл босиб,
+        Маккага етган каби.
+        Юраклардан дард, алам,
+        Армонлар кетган каби.
+        Ёхуд тинмай шунча йил
+        Ҳикмат конин қазгандай.
+        Йигирма йил бир шоир
+        Шоҳ асарин ёзгандай.
+        `,
+        
+        bookInfoTwo : `
+        Кул босган ўчоқлардан
+        Чиққан каби ўт-олов.
+        Қўл етмас чўққиларга
+        Қадалгандек туғ-ялов.
+        `,
+        bookPrice : "5 000 so’m",
+        audioTime : "2:35 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "239",
+        bookImg : "https://kitobxon.com/img_knigi/s344.jpg",
+        bookName : "Everest va ummon",
+        bookRating : 3.3,
+        bookGenre : "ozbek",
+        bookPage : 394,
+        published : 2016,
+        bookSenario : "Badiiy",
+        nashriyot : "O'zbekiston NMIU",  
+        bookInfo : `
+        Шеър — руҳият тадқиқи, туйғулар тасвири. Унда озод
+        ва покиза кўнгилнинг гоҳ майин, гоҳ нолакор, гоҳ ўтли,
+        гоҳ мунгли манзараларини кўришингиз мумкин.`,
+        
+        bookInfoTwo : `
+
+        Ушбу
+        манзумада ана шу туйғулар мусаввири, Ўзбекистон Қаҳрамони, Халқ шоири Абдулла Ориповнинг сўнгги йилларда ва вафотидан олдин ёзилган шеърлари жамланган.
+        Ўйлаймизки, ушбу тўплам шеърият ихлосмандларига
+        муносиб туҳфа бўлди
+        `,
+        bookPrice : "10 600 so’m",
+        audioTime : "5:10 soat",
+        electron : "pdf"      
+      },
+      {
+        bookId : "240",
+        bookImg : "https://kitobxon.com/img_knigi/s4491.jpg",
+        bookName : "Umr manzillari",
+        bookRating : 4.1,
+        bookGenre : "o'zbek",
+        bookPage : 116,
+        published : 2017,
+        bookSenario : "Badiiy",
+        nashriyot : "Tafakkur qanoati",
+        bookInfo : `
+        Shundan keyin shoirning «Ko‘zlarim yo‘lingda», «Ruhim», «Xotirot», «Yillar armoni» singari to‘plamlari chop etildi va ularning har biri adabiyot maydonida hodisa bo‘ldi. Uning «Bahor», «O‘ylarim», «Onajon» kabi she’rlari nafaqat o‘zbek she’riyati, balki jahon she’riyatining ham namuna asarlariga aylandi.`,
+        
+        bookInfoTwo : `
+
+        A. Oripov turli janrlarda ijod qildi. Jumladan, «Sohibqiron» pesasini yozib, buyuk sarkarda Amir Temur obrazini yarat- di. Shoir Dante «Ilohiy komediya»sining «Do‘zax» qismini tilimizga yuksak mahorat bilan tarjima qildi.
+        `,
+        bookPrice : "15 500 so’m",
+        audioTime : "4:40 soat",
+        electron : "pdf"
+      }
+    ]
+  },
+
+  {
+    id : "61",
+    name : "Odil",
+    lastName : "Yoqubov",
+    born : 1926,  
+    bornDate : 20,
+    bornMonth : "Oct",
+    died : 2009,
+    diedDate : 21,
+    diedMonth : "Dec",
+    books : 18,
+    audio : 43,
+    genre : "o'zbek",
+    img : "https://telegra.ph/file/49a3cba9b33dadafbf734.jpg",
+    desc : `Odil Yoqubov — oʻzbek sovet adabiyoting yirik vakili, 1926-yili Qozogʻistonning Turkiston tumanidagi Qarnoq qishlogʻida ziyoli oilada tugʻilgan.
+
+    Ikkinchi jahon urushi boshlangach, urushda qatnashish uchun yoshini katta koʻrsatib, Yaponiya frontiga joʻnagan. 1945-yildan 1950-yilgacha haqiqiy harbiy xizmatda boʻldi. 1951–1956-yillar mobaynida Oʻrta Osiyo Davlat Universiteti (hozirgi Milliy universitet)da taʼlim olgan. „Literaturnaya gazeta“ning Oʻzbekiston boʻyicha muxbiri, Oʻzbekiston yozuvchilari uyushmasi raisi, „Oʻzbekiston adabiyoti va sanʼati“ gazetasi bosh muharriri va boshqa mas’ul vazifalarda ishlagan.`,
+
+    jobs : `Yoqubov 1985-yil Oʻzbekiston xalq yozuvchisi ordeni bilan taqdirlangan. Oʻzbekiston milliy universiteti filologiya fakultetini tugatgan (1956). Oʻzbekiston Yozuvchilar uyushmasida adabiy maslahatchi (1955-59), „Literaturnaya gazeta“ning Oʻzbekistondagi maxsus muxbiri (1959-63; 1967-70), „Oʻzbekfilm“ kinostudiyasi va Oʻzbekiston davlat kinematografiya qoʻmitasida bosh muharrir`,
+    location : "Toshkent, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "241",
+        bookImg : "https://kitobxon.com/img_knigi/s6809.jpg",
+        bookName : "Onaizor",
+        bookRating : 4.6,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2018,
+        bookPage : 336,
+        nashriyot : "G'afur G'ulom",
+        bookInfo : `
+        Китоб Ғафур Ғулом номидаги нашриёт-матбаа ижод уйи томонидан чоп этилган.Тақдимотда нашриёт ходимлари, ёзувчининг яқин қариндошлари, шогирдлари ва адабиёт ихлосмандлари иштирок этди.
+
+        Унда шоир Муҳиддин Омон ва бошқалар Одил Ёқубовнинг бой адабий мероси, ибратли ҳаёт йўли ҳақида гапирди.`,
+        
+        bookInfoTwo : `
+        Тўплам «Уруш кўрган адиблар» рукни остида босилган бўлиб, унга атоқли адибнинг «Излайман» қиссаси, «Музқаймоқ», «Қайдасан, Морико», «Онаизор» каби Иккинчи жаҳон уруши даври қийинчиликлари акс этган ҳикоялари киритилган.
+        `,
+        bookPrice : "20 900 so’m",
+        audioTime : "2:45 soat",
+        electron : "pdf"
+      },
+
+      {
+        bookId : "242",
+        bookImg : "https://kitobxon.com/img_knigi/s7020.jpg",
+        bookName : "Diyonat",
+        bookRating : 3.9,
+        bookGenre : "o'zbek",
+        bookPage : 376,
+        published : 2020,
+        bookSenario : "Badiiy",
+        nashriyot : "Qaldirg'och",
+        bookInfo : `
+        Roman janri inson borligʻi hamda davr ruhiyatini izchil va teran, yaxlit va tugal ifodalash xususiyatiga egadir. Badiiy shakl qahramon ruhiy dunyosini batafsil ochish barobarida voqelikka boʻlgan ongli-sogʻlom munosabatni ham sharhlaydi.
+        `,
+        
+        bookInfoTwo : `
+        Tashqi muhitning bevosita va bilvosita inson yashash tarziga taʼsirini ifodalash, koʻrsatish, oʻz munosabatini ham bildirib oʻtish janr qonuniyatlari sirasiga kiradi. Shu maʼnoda, roman mavjud voqelik silsilasida yangi hamda muhim ahamiyatga molik falsafiy-axloqiy muammolarni ilgari suradi. Odil Yoqubovning “Diyonat” romani ham bundan mustasno emas. Vaqtida “voqea” boʻlgan asarlar qatoridan joy olgan ushbu roman hayotning muhim qirralarini oʻzida jamlay olganligi bilan ham qadrlidir. Bir qarashda roman psixologik asardek tuyuladi.
+        `,
+        bookPrice : "25 000 so’m",
+        audioTime : "1:50 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "243",
+        bookImg : "https://kitobxon.com/img_knigi/s5202.jpg",
+        bookName : "Adolat manzili",
+        bookRating : 3.9,
+        bookGenre : "o'zbek",
+        bookPage : 240,
+        published : 2019,
+        bookSenario : "Badiiy",
+        nashriyot : "Yangi Nashr",  
+        bookInfo : `
+        Odil Yoqubov shunday jamiyatda dunyoga keldi, voyaga yetdi, hayot kechirdiki, bevosita, har bitta ijod namunasidan shu hayot tajribasi, ko‘rgan kechirganlarini qog‘ozga tushurdi.`,
+        
+        bookInfoTwo : `
+        "Adolat manzili" romanida adolatsizlikning eng mudhish ko‘rinishi bir millat, bir katta davlat ustidan qilingan adolatsizlikni qamrab olgani bilan o‘ziga xoslik kasb etadi.
+        `,
+        bookPrice : "16 000 so’m",
+        audioTime : "7:25 soat",
+        electron : "pdf"      
+      },
+      {
+        bookId : "244",
+        bookImg : "https://kitobxon.com/img_knigi/s4134.jpg",
+        bookName : "Ko‘hna dunyo",
+        bookRating : 4.5,
+        bookGenre : "o'zbek",
+        bookPage : 480,
+        published : 2014,
+        bookSenario : "Badiiy",
+        nashriyot : "Yangi ask avlodi",
+        bookInfo : `
+        «Odil Yoqubovning «Ko’hna dunyo» romanining markazida Ibn Sino hamda Beruniy taqdirlari, ular yashagan davri ruradi. Muallifning xulosalari va umumlashmalari keng, shuning uchun tarixiy materialga ajib aktual ma’no bag’ishlaydi.`,
+        
+        bookInfoTwo : `
+
+        Zamonlar osha qilingan sayohat teran falsafiy umumlashmalar chiqarishga imkon beradi. Romanda tasvirlangan barcha voqealar hujjatlar bilan cheklab qo’yilmagan. Odil Yoqubov tarixni xuddi ko’rib turadi, tarix bilan bahslashadi, zamondoshlarga uzoq o’tmishdoshlarining tajribalaridan guvohlik berayotganday bo’ladi. U tarixga bugungi nuqtayi nazaridan qaraydi»
+        `,
+        bookPrice : "11 600 so’m",
+        audioTime : "6:25 soat",
+        electron : "pdf, ebook"
+      }
+    ]
+  },
+
+  {
+    id : "62",
+    name : "Abdulhamid ",
+    lastName : "Choʻlpon",
+    born : 1897,  
+    bornDate : 25,
+    bornMonth : "Nov",
+    died : 1938,
+    diedDate : 4,
+    diedMonth : "Oct",
+    books : 22,
+    audio : 12,
+    genre : "o'zbek",
+    img : "https://upload.wikimedia.org/wikipedia/commons/9/9c/Abdulhamid_Cholpon.jpg",
+    desc : `Choʻlpon (taxallusi; asl ism-sharifi Abdulhamid Sulaymon oʻgʻli Yunusov) (1897, Andijon — 1938.4.10, Toshkent) — shoir, yozuvchi, dramaturg , tarjimon, tanqidchi va jamoat arbobi. Dastlab madrasada (1908-1912), soʻngra rus-tuzem maktabida (1912-1914) oʻqigan. Sharq mumtoz shoirlari asarlarini mutolaa qilish va jadid matbuotini kuzatish yoʻli bilan adabiy, ijtimoiy-siyosiy bilimini oshirgan.`,
+
+    jobs : `1914-yil Toshkentga kelib, „Sadoi Turkiston“ gazetasi bilan hamkorlik qilgan. „Yangi Sharq“, „Ishtirokiyun“ (1920-yildan „Qizil bayroq“, 1922-yildan „Turkiston“) gazetasida adabiy xodim (1919-1923), Xalq maorif komissarligi qoshidagi Ilmiy kengash (1921-yildan Oʻlka oʻzbek bilim hayʼati, 1922-yildan Ilmiy hayʼat)da rais (1920-1923), „Buxoro axboroti“ gazetasida muharrir (1921-1922)`,
+    location : "Toshkent, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "245",
+        bookImg : "https://kitobxon.com/img_knigi/s6963.jpg",
+        bookName : "Kecha va kunduz",
+        bookRating : 5,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2019,
+        bookPage : 328,
+        nashriyot : "G'afur G'ulom",
+        bookInfo : `
+        Абдулҳамид Сулаймон Чўлпоннинг “Кеча ва кундуз” романи яратилганига қарийб 80 йил бўлса-да, у ҳамон қўлдан-қўлга ўтиб келмоқда. Мазкур асар икки қисимдан иборат бўлиб, дастлабки – “Кеча” деб номлангани қўлингиздаги китобда акс этади. 
+        `,
+        
+        bookInfoTwo : `
+        “Бугун” деб аталган иккинчи қисми ҳақида эса маълумотлар йўқ.  Китобда ўзбекларга хос андиша, ҳиммат, иффат ва соддалик каби фазилатлар билан бирга хотинбозлик ва мол-мулк орттириш йўлидаги иллатлар ҳам ўз интиқосини топган. Бу каби сифатлар ва иллатлар китобхонни чуқур мушоҳада юритишга ундайди. Чўлпон дунёси, унинг олами, ижодидаги нафислик ва сержилолик сиз азизларга манзур бўлади, деган умиддамиз. Асар ёшларнинг миллий маънавиятини шакллантиришда муҳим ўрин тутади.
+        `,
+        bookPrice : "17 480 so’m",
+        audioTime : "4:45 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "246",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/d2cd33e9c0236a8c2d8bd3fa91ad3acf2022042615345389929X4Ktze57tL.jpg.webp",
+        bookName : "Жадид адабиёти намоёндалари",
+        bookRating : 4.1,
+        bookGenre : "o'zbek",
+        bookPage : 336,
+        published : 2015,
+        bookSenario : "Badiiy",
+        nashriyot : "Zabarjad media",
+        bookInfo : `
+        Ватанининг мустабидлар зулмидан озод бўлишини, миллати фарзандларини шарафга тўлганлар қаторида кўришни орзулаган халқимизнинг қалби уйғоқ фарзандлари - «жадид адабиёти намояндалари» бугун яна ўз ўқувчилари билан юзлашмоқда.
+        `,
+        
+        bookInfoTwo : `
+        Халқ маънавиятини бойитиш йўлида олиб борилган курашлар, миллий матбуот, адабиёт ва театрнинг одамлар тафаккурини оширишдаги аҳамияти ҳақида асарларида куюниб ёзган, бу борада фидойилик кўрсатган, алалоқибат қатағонга учраганлар ҳақида сўз бораркан, Абдулла Қодирий, Абдурауф Фитрат, Абдулҳамид Чўлпон, Абдулла Авлоний, Маҳмудхўжа Беҳбудий, Мунаввар қори Абдурашидхонов, Усмон Носир, Исъҳоқхон Ибрат сиймолари кўз олдимизда гавдаланади. Улар ўз асарларида кўтарган муаммолар ҳамон бизнинг қаршимизда бўй кўрсатиб турибди. Биз ҳамон «миллатни уйғотиш уйғонганларнинг вазифаси» деган чорловга муносиб жавоб қайтаролганимиз йўқ.
+        `,
+        bookPrice : "49 000 so’m",
+        audioTime : "6:25 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "247",
+        bookImg : "https://kitobxon.com/img_knigi/s7206.jpg",
+        bookName : "She’rlar",
+        bookRating : 3.2,
+        bookGenre : "o'zbek",
+        bookPage : 272,
+        published : 2017,
+        bookSenario : "Badiiy",
+        nashriyot : "Akademnashr",  
+        bookInfo : `
+        Бир қатор журнал, тўпламларда Чўлпонга нисбат берилган талайгина шеърлар эълон қилинган бўлиб, бу каби шеърларнинг айримлари ҳам мазмун, ҳам тузилиши жиҳатидан шоирнинг машҳур “Бузилган Ўлкага” шеърига ўхшаб кетади.`,
+        
+        bookInfoTwo : `
+        Шу ва шунга ўхшаш халқ орасида кенг тарқалиб кетган шоирнинг шеърлари асосида кейинчалик, уруш ҳамда урушдан сўнгги йиллари халқ Чўлпоннинг номидан бошқа шеърлар яратиб, куйлаб юргани сир эмас. Шу сингари шеърлардан яна бири “Гўзал Туркистон” саналади:
+        `,
+        bookPrice : "40 000 so’m",
+        audioTime : "4:25 soat",
+        electron : "pdf, ebook"      
+      },
+      {
+        bookId : "248",
+        bookImg : "https://kitobxon.com/img_knigi/s3880.jpg",
+        bookName : "Nazm",
+        bookRating : 4.2,
+        bookGenre : "o'zbek",
+        bookPage : 48,
+        published : 2012,
+        bookSenario : "Badiiy",
+        nashriyot : "Akademnashr",
+        bookInfo : `
+        Хорижда Чўлпоннинг шеърий ижоди бўйича энг кўп ёзганлардан яна бири Боймирза Ҳайит бўлади. Б. Ҳайит ўзининг бир қатор асарларида шоир шеъриятига тўғри баҳо беради:`,
+        
+        bookInfoTwo : `
+
+        “Чўлпоннинг инсонлар қалбини ларзага келтирган, туркистонликлардаги миллий туйғунинг дил ифодаси бўлган “Уйғониш”, “Булоқлар” ва “Тонг сирлари” шеърий тўпламлари унинг хеч вақт адабиёт тарихидан ўчириб бўлмайдиган бир сиймо ҳолига келтирган. Балки Чўлпон ўз вақтида ижодининг юксак поғонасига етган бўлуви мумкин
+        `,
+        bookPrice : "5 200 so’m",
+        audioTime : "1:45 soat",
+        electron : "pdf"
+      }
+    ]
+  },
+
+  {
+    id : "63",
+    name : "Tohir  ",
+    lastName : "Malik",
+    born : 1946,  
+    bornDate : 27,
+    bornMonth : "Dec",
+    died : 2019,
+    diedDate : 16,
+    diedMonth : "May",
+    books : 43,
+    audio : 31,
+    genre : "o'zbek",
+    img : "https://upload.wikimedia.org/wikipedia/ru/9/9d/%D0%A2%D0%BE%D1%85%D0%B8%D1%80_%D0%9C%D0%B0%D0%BB%D0%B8%D0%BA.jpg",
+    desc : `1946-yilning 27-dekabrida Toshkent shahrida ziyoli oilasida dunyoga kelgan. Toshkent Davlat Universiteti (hozirgi Oʻzbekiston Milliy Universiteti)ning jurnalistika fakulteti kechki boʻlimida oʻqib, kunduzi qurilish ishlarida qatnashgan. 1966-yildan beri Oʻzbekiston radiosida, gazeta va jurnallar tahririyatida, Oʻzbekiston yozuvchilar uyushmasida, nashriyotlarda faoliyat yuritgan. Hozirgi kunda „Sharq“ NMAK Bosh tahririyatida muharrir.`,
+
+    jobs : `Barcha tengdoshlari singari u ham urushdan keyingi turmush qiyinchiliklarini boshidan kechirgan. Oilada besh farzand boʻlib Tohir Malik eng kenja farzand boʻlgan. Tohir maktabga bormay turiboq, dars tayyorlab oʻtirgan akalari va opalari yonida savodni oʻzlashtirgan. Ukasining kitobga boʻlgan ixlosini sezgan akalari unga — Mard yigit ertaklar toʻplamini sovgʻa qilishadi va ushbu kitobni hozirga qadar eʼzozlab saqlashini aytgan. Taniqli oʻzbek adibi va tarjimoni Mirzakalon Ismoiliy Tohir Malikning togʻasi boʻlib, uni 1949-yilda "xalq dushmani" degan tuhmat bilan qamoqqa olishadi. Bu haqida adibning oʻzi ushbu soʻzlarni aytgan`,
+
+    location : "Toshkent, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "249",
+        bookImg : "https://kitobxon.com/img_knigi/s6479.jpg",
+        bookName : "So‘nggi o‘q",
+        bookRating : 4.9,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2017,
+        bookPage : 400,
+        nashriyot : "Tohir Malik nomidagi nashriyot uyi",
+        bookInfo : `
+        Tohir Malikning "Savohil" hamda "So‘nggi o‘q" qissalari o‘zbek kitobxonlari uchun yaqin o‘tmishimizga bir nazar bo‘lib , tarixiy voqealar asnosida inson ruhiyatiga qilinadigan benazir sayohat hamdir
+        `,
+        
+        bookInfoTwo : `
+        Qismat va zamonning achchiq to‘lqinlariga tashlangan qahramonning temir bardoshiga tan bermay ilojimiz yo‘q. Tog‘dek g‘amlar ostida ham eng buyuk sharaf - inson bo‘lib qolish darsini o‘rganamiz.
+        `,
+        bookPrice : "23 500 so’m",
+        audioTime : "3:21 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "250",
+        bookImg : "https://kitobxon.com/img_knigi/s6743.jpg",
+        bookName : "Mehmon tuyg‘ular",
+        bookRating : 4.4,
+        bookGenre : "o'zbek",
+        bookPage : 544,
+        published : 2018,
+        bookSenario : "Badiiy",
+        nashriyot : "Tohir Malik nomidagi nashriyot uyi",
+        bookInfo : `
+        Ўзбекистон халқ ёзувчиси Тоҳир Малик бир неча йил аввал шу номда китоб нашр эттирган эди. Бу китобга жамланган фалсафий фикрларнинг айримлари билан азиз мухлислар «Иймонлашиш умиди», «Тош қалбларга назар солинмас» каби тўпламлари орқали танишган бўлишлари мумкин
+        `,
+        
+        bookInfoTwo : `
+        Мазкур китобни нашрга тайёрлашда адиб кўп янгиликлар киритди. Дунёни тушунишга хизмат қилувчи янги ҳикматлар билан бойитди
+        `,
+        bookPrice : "21 500 so’m",
+        audioTime : "3:50 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "251",
+        bookImg : "https://kitobxon.com/img_knigi/s5188.jpg",
+        bookName : "Tiriklik suvi",
+        bookRating : 4.8,
+        bookGenre : "o'zbek",
+        bookPage : 256,
+        published : 2019,
+        bookSenario : "Badiiy",
+        nashriyot : "Davr press",  
+        bookInfo : `
+        Мазкур китобга одамийлик ҳусниниг гултожи ҳисобланган номус ва ҳаё фазилати баробарида энг хунук иллиатлардан бўлмиш номуссизлик ва беҳаёлик иллатлари ҳақида баҳс юритувчи бадиий асарлар жамланган..`,
+        
+        bookInfoTwo : `
+        Номус фазилатига эришганлар саодатга етишсалар, шайтонга тиз чўкиб ибодат қилувчи номуссизларни кутаётган азоблар ҳақида ҳам сўз боради.
+        `,
+        bookPrice : "32 600 so’m",
+        audioTime : "6:50 soat",
+        electron : "pdf"      
+      },
+      {
+        bookId : "252",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/0ae3f79a30234b6c45a6f7d298ba13102021122119073186749rVxoEBLitv.jpg.webp",
+        bookName : "Padarkush",
+        bookRating : 4.7,
+        bookGenre : "o'zbek",
+        bookPage : 344,
+        published : 2018,
+        bookSenario : "Badiiy",
+        nashriyot : "Tohir Malik nomidagi nashriyot uyi",
+        bookInfo : `
+        Inson va hayot, inson va xayol, iymon, diyonat, oqibat uyg‘unligi Tohir Malik asarlarining bosh mavzusi bo‘lib, bunda yaxshilikning yomonlik ustidan g‘olib kelishi, mehr muhabbat esa tiriklik tarozisida posangi bo‘lib xizmat qilishi go‘zal tarzda ifoda etiladi.`,
+        
+        bookInfoTwo : `
+
+        Mazkur kitobga yozuvchi Tohir Malikning «Omad qushini uchirib yuborgan kishi» nomli qissasi va turli yillarda, turli tarzlarda yozilgan sara hikoyalari jamlandi.
+        `,
+        bookPrice : "55 000 so’m",
+        audioTime : "7:20 soat",
+        electron : "pdf, ebook"
+      }
+    ]
+  },
+
+  {
+    id : "64",
+    name : "Pirimqul",
+    lastName : "Qodirov",
+    born : 1928,  
+    bornDate : 25,
+    bornMonth : "Oct",
+    died : 2010,
+    diedDate : 20,
+    diedMonth : "Dec",
+    books : 37,
+    audio : 11,
+    genre : "o'zbek",
+    img : "https://static.xabaruz.com/uploads/15/720__rmppuco36-Do9x5s8y9I3aA3_LDt0O08.jpg",
+    desc : `1951-yildan Oʻrta Osiyo Davlat universiteti (hozirgi [[OʻzMU]]) sharqshunoslik fakultetini va 1954-yili Moskvadagi Adabiyot institutining aspiranturasini bitirgan. Filologiya fanlari nomzodi. Birinchi kitobi – „Studentlar“ 1950-yilda chop etilgan. Yangi avlod oʻzbek ziyolilarining shakllanishi „Uch ildiz“ romanida (1958) tasvirlangan. Roman 1959-yilda Moskvada rus tilida chop etildi.`,
+
+    jobs : `Yozuvchi tugʻilgan togʻli qishloq hayoti „Qora koʻzlar“ (1966) romanida aks ettirilgan. Pirimqul Qodirov „Qadrim“ (1963), „Erk“ (1969), „Meros“ (1975) qissalari, „Olmos kamar“ (1977) romani muallifi.
+
+    Soʻng oʻttiz yil davomida xalqning tarixiy xotirasini uygʻotadigan „Yulduzli tunlar“ (1978), „Avlodlar dovoni“ (1988), „Ona lochin vidosi“ (2001) nomli tarixiy romanlarni chop ettirdi. Bobur haqidagi roman oʻzbek tilida 6 marta, rus tilida 5 marta katta tirajda chop etildi. U hind, urdu, bengal, turk, qozoq, uygʻur, turkman tillariga oʻgirilgan.`,
+
+    location : "Toshkent, Uzbekiston",
+    bookObj : [
+      {
+        bookId : "253",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/3295c76acbf4caaed33c36b1b5fc2cb12021052111494312960hgKUgNsft8.jpg.webp",
+        bookName : "Avlodlar dovoni",
+        bookRating : 4.7,
+        bookGenre : "o'zbek",
+        bookSenario : "Badiiy",
+        published : 2019,
+        bookPage : 528,
+        nashriyot : "Yoshlar",
+        bookInfo : `
+        Pirimqul Qodirov «Yuduzli tunlar»ning mantiqiy davomi sanalmish Boburning sadoqatli, jasur farzandi Humoyun va nabirasi - tarixda «chinakam daho shaxs» deb nom olgan 
+        `,
+        
+        bookInfoTwo : `
+        Akbar hayoti haqida hikoya qiluvchi «Avlodlar dovoni» («Akbar») romanini 80-yillarda yaratgan. Asarda pok sevgi, insoniy mehru muhabbat, shavqu shijoat tarixiy qahramonlar qiyofasida yorqin aks ettirilgan.
+        `,
+        bookPrice : "29 000 so’m",
+        audioTime : "5:40 soat",
+        electron : "pdf, ebook"
+      },
+      {
+        bookId : "254",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/ab8aa05e782481f55fc1412a97e7ac342022012010284092605nvTaSqzqAZ.jpg.webp",
+        bookName : "Yulduzli tunlar",
+        bookRating : 3.6,
+        bookGenre : "o'zbek",
+        bookPage : 560,
+        published : 2015,
+        bookSenario : "Badiiy",
+        nashriyot : "Адабиёт учқунлари",
+        bookInfo : `
+        Mahoratli yozuvchi Pirimqul Qodirovning ushbu asari o‘zbek adabiyotining eng sara tarixiy romanlari sirasiga kiradi. Unda Movarounnahrdek saltanatning parchalanib ketishi, Temuriylar sulolasining inqirozi, hokimiyatga erishish ilinjida taxt talashib, bir-birlariga qilich ko‘targan og‘a-ini, tog‘a-jiyanlarning fojiaviy qismati aks ettirilgan.Roman voqealari orqali o‘quvchi tarixda Temuriylar o‘rtasidagi nizolar, fitna, fisq-u fasod tufayli yuzaga kelgan qonli urushlar, ayovsiz xunrezliklar oqibatida behad qonxo‘r beklar zulmidan sillasi butkul qurigan xalqning g‘oyat nochor ahvoli va uyyushqoqlikdan bexabar Temuriylarni Shayboniyxon qanchalar oson mahv etgani bilan tanishadi.
+        `,
+        
+        bookInfoTwo : `
+        Asarning bosh qahramoni Mirzo Bobur odamlaridagi bemehrlik, bir-birini ko‘rolmaslik, xudbinlik, xiyonat singari jirkanch illatlar bilan g‘oyat erta, o‘n ikki yoshda taxtga o‘tirganida ro‘baro bo‘ldi. Taqdirning ayanchli zarbalaridan zada bo‘lgan shohning kuygan yuragi- shoir qalbi qalandarlikni ixtiyor etgani ajab emas. Asar mutolaasi davomida butun umr vatan ishqida yonib, sog‘inch bilan o‘rtanib, “Jonimdin o‘zga yori vafodor topmadim...” deya iztirob chekkan bobokalonimiz dardi kitobxon qalbini larzaga soladi.
+        `,
+        bookPrice : "29 000 so’m",
+        audioTime : "2:55 soat",
+        electron : "pdf"
+      },
+      {
+        bookId : "255",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/299fb2142d7de959380f91c01c3a293c2021100211134531969GKHD0K1WlI.jpg.webp",
+        bookName : "Qora ko'zlar",
+        bookRating : 4.1,
+        bookGenre : "o'zbek",
+        bookPage : 352,
+        published : 2012,
+        bookSenario : "Badiiy",
+        nashriyot : "Янги Аср Авлоди",  
+        bookInfo : `
+        “Qorа kozlаr” romаni 60-yillаr boshidаgi qishloq hаyoti mаnzаrаlаrini, turmush qiyinchiliklаrini, murаkkаbliklаrini, ziddiyatlаrini royi-rost korsаtgаnligi bilаn аjrаlib turаdigаn аsаr edi. Undа hozirgi kunlаrgа hаmohаng muаmmolаr tаlqinini hаm uchrаtish mumkin edi.`,
+        
+        bookInfoTwo : `
+        Хususаn, romаn rаhbаrlikdаgi, хojаlikdаgi kozboyamаchiliklаrni, qo'shib yozishlаrni, kishilаr ахloqidаgi tubаnliklаrni hаmdа ulаrgа qаrshi kurаshuvchilаr borligini ochiq-oydin gаvdаlаntirishi bilаn deyarli bаrchа dаvrlаr uchun dolzаrblik qiymаti kаsb etаdi. 
+        `,
+        bookPrice : "25 000 so’m",
+        audioTime : "4:25 soat",
+        electron : "pdf, ebook"      
+      },
+      {
+        bookId : "256",
+        bookImg : "https://assets.asaxiy.uz/product/items/desktop/970af30e481057c48f87e101b61e69942021100211300948481lfU8tgACAO.jpg.webp",
+        bookName : "Olmos kamar",
+        bookRating : 5,
+        bookGenre : "o'zbek",
+        bookPage : 416,
+        published : 2020,
+        bookSenario : "Badiiy",
+        nashriyot : "Янги Аср Авлоди",
+        bookInfo : `
+        "Olmos kamar" romanida Abror va Sherzodning ma'naviyati, kasb, ruhiyat, shuurdagi kurashlarini, hayot, jamiyat, oila, el-yurtga qarashlari aro ziddiyatlarni ko'rsatish asosiga qurilgan. Ularning ikkovi ham arxitektor-yangi shahar bunyod etuvchi, uni obodonlashtiruvchi mutaxassis. Lekin tarbiya, tabiati, burch va mas'uliyatiga munosabati, muhabbatga, oilaga qarashda farq kuchli.`,
+        
+        bookInfoTwo : `
+
+        Abror elparvar, adolatgo'y, maydonlarga ko'rk berishda milliy udumlarimiz, an'analarimizga rioya qilish tarafdori. Bahrom esa ishni o'zboshimchalik bilan do'ndirishga moyil. Yozuvchi ularni murakkab kechinmalar, iztiroblar, adashishlar, to'g'ri yo'lni topa olish natijasidagi yoniq quvonchlar ichida ko'rsatadi. Bu qahramonlar kitobxonni mustaqil mushohada yuritishga, mayda andishalar girdobiga o'ralib qolmaslikka, hayotda kurashlardan qo'rqmay, el-yurt dardi bilan yashashga o'rgatadi.
+        `,
+        bookPrice : "42 500 so’m",
+        audioTime : "4:20 soat",
+        electron : "pdf"
+      }
+    ]
+  },
 ];
 
 export default obj;

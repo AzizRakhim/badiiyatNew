@@ -9,10 +9,6 @@ function CategoryItem(props) {
       props.setArr(obj.map(item => {
         return item;
       }))
-    } else if(e.target.id.toLowerCase() === "jadid"){
-      props.setArr(obj.filter(item => {
-        return item.genre.toLowerCase() === e.target.id.toLowerCase();
-      }))
     } else if(e.target.id.toLowerCase() === "jahon"){
       props.setArr(obj.filter(item => {
         return item.genre.toLowerCase() === e.target.id.toLowerCase();
