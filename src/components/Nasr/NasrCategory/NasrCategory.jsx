@@ -4,8 +4,8 @@ import PortfolioItem from '../../Main/Category/Portfolio/PortfolioItem/Portfolio
 import NasrFilter from './NasrFilter/NasrFilter';
 
 function NasrCategory(props) {
-  let categoryArr = ["All", "Jahon adabiyoti", "Jadid davri", "Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"];
-  let typeArr = ["all", "jahon", "jadid", "diniy", "o'zbek", "biznes"];
+  let categoryArr = ["All", "Jahon adabiyoti", "Diniy adabiyot", "O'zbek adabiyoti", "Biznes adabiyoti"];
+  let typeArr = ["all", "jahon", "diniy", "o'zbek", "biznes"];
 
   return (
     <section className='category'>
