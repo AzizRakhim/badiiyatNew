@@ -6712,7 +6712,7 @@ let obj = [{
       {
         bookId : "246",
         bookImg : "https://assets.asaxiy.uz/product/items/desktop/d2cd33e9c0236a8c2d8bd3fa91ad3acf2022042615345389929X4Ktze57tL.jpg.webp",
-        bookName : "Жадид адабиёти намоёндалари",
+        bookName : "Jadid adabiyoti namoyondalari",
         bookRating : 4.1,
         bookGenre : "o'zbek",
         bookPage : 336,
