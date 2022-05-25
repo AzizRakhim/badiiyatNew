@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Forum from './components/Forum/Forum';
@@ -14,6 +15,13 @@ import Profile from './components/Profile/Profile';
 import Setting from './components/Setting/Setting';
 
 function App() {
+  let [saved, setSaved] = useState([]);
+  let [name, setName] = useState("");
+  let [lastName, setLastName] = useState("");
+  let [phone, setPhone] = useState("");
+  let [email, setEmail] = useState("");
+  let [isTrue, setIsTrue] = useState(true);
+
   return (
     <>
       <Routes>
@@ -21,12 +29,53 @@ function App() {
         <Route path='nasr' element={<Nasr />} />
         <Route path='nazm' element={<Nazm />} />
         <Route path='maqolalar' element={<Maqolalar />} />
-        <Route path='forum' element={<Forum />} />
+        <Route 
+          path='forum' 
+          element={<Forum
+            name={name}
+            setName={setName}
+            lastName={lastName}
+            setLastName={setLastName}
+            phone={phone}
+            setPhone={setPhone}
+            email={email}
+            setEmail={setEmail} 
+          />} 
+        />
         <Route path='portfolio/:id' element={<Portfolio />} />
-        <Route path='book/:id' element={<NasrBook />} />
-        <Route path='forum/signup' element={<SignUp />} />
-        <Route path='forum/signin' element={<SignIn />} />
-        <Route path="profile" element={<Profile />} />
+        <Route path='book/:id' element={<NasrBook 
+          saved={saved}
+          setSaved={setSaved}
+        />} />
+        <Route 
+          path='/signup' 
+          element={<SignUp 
+            name={name}
+            setName={setName}
+            lastName={lastName}
+            setLastName={setLastName}
+            phone={phone}
+            setPhone={setPhone}
+            email={email}
+            setEmail={setEmail}
+          />}
+        />
+        <Route path='/signin' element={<SignIn />} />
+        <Route 
+          path="profile" 
+          element={<Profile
+            saved={saved}
+            setSaved={setSaved}
+            name={name}
+            setName={setName}
+            lastName={lastName}
+            setLastName={setLastName}
+            phone={phone}
+            setPhone={setPhone}
+            email={email}
+            setEmail={setEmail}
+          />} 
+        />
         <Route path="setting" element={<Setting />} />
       </Routes>
     </>

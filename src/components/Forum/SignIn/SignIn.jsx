@@ -18,7 +18,7 @@ function SignIn() {
           <div className='signup__link-box'>
             Already have an account? 
             <Link
-              to={"/forum/signup"}
+              to={"/signup"}
               className={"forum-tdn"}
             >
               Sign up

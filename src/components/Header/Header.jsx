@@ -31,12 +31,14 @@ function Header() {
               </ul>
             </nav>
             <div className='user-wrapper position-relative'>
-              <div className='header__btns d-flex align-items-center' onClick={userHandler}>
-                <button className='header__user-btn'>
-                  <img src={userLogo} alt="user" />
-                </button>
-                <button className='header__arrow-btn d-flex align-items-center'>
-                  <i class='bx bx-chevron-down'></i>
+              <div className='header__btns d-flex align-items-center'>
+                <button className='disableBtn header__btns d-flex align-items-center' onClick={userHandler} disabled={true}>
+                  <button className='header__user-btn'>
+                    <img src={userLogo} alt="user" />
+                  </button>
+                  <button className='header__arrow-btn d-flex align-items-center'>
+                    <i class='bx bx-chevron-down'></i>
+                  </button>
                 </button>
               </div>
               <div className='userModal' style={{display : check ? "block" : "none"}}>

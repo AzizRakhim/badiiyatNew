@@ -65,6 +65,11 @@ input{
   &:not(:last-child){
     margin-bottom: 16px;
   }
+
+  &:focus{
+    border: 1px solid #ced4da;
+    box-shadow: none !important;
+  }
 }
 
 .signup__btn{

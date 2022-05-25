@@ -1,13 +1,27 @@
-  import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import "./NasrBook.scss";
 import obj from '../../../../Object';
 import PortfolioItem from '../../../Main/Category/Portfolio/PortfolioItem/PortfolioItem';
 import Header from '../../../Header/Header';
 
-function NasrBook() {
+function NasrBook(props) {
   let location = useLocation();
   let [arr, setArr] = useState(obj);
+
+  let bookHandler = (elId) => {
+    let temp = [];
+    arr.map((item, index) => {
+      return item.bookObj.map((el, idx) => {
+        if(el.bookId === elId){
+          temp.push(el);
+          return el;
+        }
+      })
+    })
+    props.setSaved([...props.saved, temp]);
+    console.log(props.saved);
+  }
 
   return (
     <>
@@ -99,7 +113,7 @@ function NasrBook() {
                         </li>
                       </ul>
                       <div className='nasrbook__btn-holder'>
-                        <button className='nasrbook__btn'>
+                        <button className='nasrbook__btn'onClick={() => bookHandler(el.bookId)}>
                           Javonga qo’shish 
                         </button>
                       </div>

@@ -85,11 +85,23 @@
 }
 
 .save__left{
-  border: 1px solid red;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #c9ac8c;
+  border-radius: 10px;
 }
 
 .save__right{
-  border: 1px solid red;
+  height: 850px;
+  overflow: scroll;
+
+  &::-webkit-scrollbar{
+    width: 0;
+  }
 }
 
 .save__list{
@@ -121,4 +133,13 @@
   &:hover{
     color: #c9ac8c;
   }
+}
+
+.save__product-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
