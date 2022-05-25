@@ -62,6 +62,7 @@ function SignUp(props) {
       setTemp(true);
     } else{
       setTemp(false);
+      props.setIsTrue(false);
     }
   }
 

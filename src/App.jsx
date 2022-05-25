@@ -25,6 +25,13 @@ function App() {
   return (
     <>
       <Routes>
+        <Route 
+          path="header" 
+          element={<Header 
+            isTrue={isTrue}
+            setIsTrue={setIsTrue}
+          />} 
+        />
         <Route path='/' element={<Main />} />
         <Route path='nasr' element={<Nasr />} />
         <Route path='nazm' element={<Nazm />} />
@@ -40,6 +47,8 @@ function App() {
             setPhone={setPhone}
             email={email}
             setEmail={setEmail} 
+            isTrue={isTrue}
+            setIsTrue={setIsTrue}
           />} 
         />
         <Route path='portfolio/:id' element={<Portfolio />} />
@@ -58,6 +67,8 @@ function App() {
             setPhone={setPhone}
             email={email}
             setEmail={setEmail}
+            isTrue={isTrue}
+            setIsTrue={setIsTrue}
           />}
         />
         <Route path='/signin' element={<SignIn />} />
@@ -74,9 +85,22 @@ function App() {
             setPhone={setPhone}
             email={email}
             setEmail={setEmail}
+            isTrue={isTrue}
+            setIsTrue={setIsTrue}
           />} 
         />
-        <Route path="setting" element={<Setting />} />
+        <Route 
+          path="setting" 
+          element={<Setting 
+            name={name}
+            setName={setName}
+            lastName={lastName}
+            setLastName={setLastName}
+            phone={phone}
+            setPhone={setPhone}
+            email={email}
+            setEmail={setEmail}
+          />} />
       </Routes>
     </>
   );

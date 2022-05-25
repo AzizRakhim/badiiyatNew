@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Profile.scss";
 import Header from '../Header/Header'
 import PortfolioItem from '../Main/Category/Portfolio/PortfolioItem/PortfolioItem';
 
 function Profile(props) {
+  useEffect(() => {
+    let arr = props.saved;
+    let topArr = [];
+  
+    props.saved.forEach(item => {
+      if(arr != "") topArr.push(arr[0]);
+      arr = arr.filter(el => {
+        return arr[0][0].bookId != el[0].bookId;
+      })
+    })
+    // console.log(topArr);
+    // console.log(props.saved);
+    props.setSaved(topArr);
+  }, [])
+
   return (
     <>
       <Header />

@@ -4,7 +4,7 @@ import userLogo from "../../assets/images/user-avatar.png";
 import NavItem from './NavItem/NavItem';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header(props) {
   let navArr = ["Bosh sahifa", "Nasr", "Nazm", "Maqolalar", "Forum"];
 
   let [check, setCheck] = useState(false);
@@ -32,7 +32,7 @@ function Header() {
             </nav>
             <div className='user-wrapper position-relative'>
               <div className='header__btns d-flex align-items-center'>
-                <button className='disableBtn header__btns d-flex align-items-center' onClick={userHandler} disabled={true}>
+                <button className='disableBtn header__btns d-flex align-items-center' onClick={userHandler} disabled={props.isTrue}>
                   <button className='header__user-btn'>
                     <img src={userLogo} alt="user" />
                   </button>

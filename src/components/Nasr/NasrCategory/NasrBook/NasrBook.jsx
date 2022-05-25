@@ -20,7 +20,6 @@ function NasrBook(props) {
       })
     })
     props.setSaved([...props.saved, temp]);
-    console.log(props.saved);
   }
 
   return (
