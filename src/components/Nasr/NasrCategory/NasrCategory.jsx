@@ -24,7 +24,7 @@ function NasrCategory(props) {
               setArr={props.setArr}
             />
           })}
-        </ul>
+        </ul>        
         <ul className='hero__book-list d-flex flex-wrap pt-5'>
           {props.arr.map(element => {
             return element.bookObj.map((book, index) => {

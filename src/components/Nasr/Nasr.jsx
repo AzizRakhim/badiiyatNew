@@ -5,6 +5,7 @@ import obj from '../../Object';
 import NasrSearch from './NasrSearch/NasrSearch';
 import NasrCategory from './NasrCategory/NasrCategory';
 import Pagination from '../Main/Pagination/Pagination';
+import Header from '../Header/Header';
 
 function Nasr() {
   let [arr, setArr] = useState([]);
@@ -25,6 +26,7 @@ function Nasr() {
 
   return (
     <>
+      <Header />
       <main className='nasr-main'>
         <Slider />
         <NasrSearch 

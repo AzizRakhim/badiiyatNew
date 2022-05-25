@@ -4,6 +4,7 @@ import Search from './Search/Search'
 import Slider from './Slider/Slider';
 import obj from '../../Object';
 import Pagination from './Pagination/Pagination';
+import Header from '../Header/Header';
 
 function Main() {
   let [arr, setArr] = useState([]);
@@ -23,22 +24,25 @@ function Main() {
   }
 
   return (
-    <main className='site-main'>
-      <Slider />
-      <Search 
-        arr={currentPosts}
-        setArr={setArr}
-      />
-      <Category
-        arr={currentPosts}
-        setArr={setArr}
-      />
-      <Pagination 
-        postsPerPage={postsPerPage}
-        totalPosts={arr.length}
-        paginate={paginate}
-      />
-    </main>
+    <>
+      <Header />
+      <main className='site-main'>
+        <Slider />
+        <Search 
+          arr={currentPosts}
+          setArr={setArr}
+        />
+        <Category
+          arr={currentPosts}
+          setArr={setArr}
+        />
+        <Pagination 
+          postsPerPage={postsPerPage}
+          totalPosts={arr.length}
+          paginate={paginate}
+        />
+      </main>
+    </>
   )
 }
 

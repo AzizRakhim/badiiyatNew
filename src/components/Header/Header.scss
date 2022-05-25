@@ -93,3 +93,41 @@
   border-bottom: 2px solid #fff;
   color: #fff;
 }
+
+.user-wrapper{
+  cursor: pointer;
+}
+
+.userModal{
+  min-width: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 1000000;
+  background: rgba(var(--d87,255,255,255),1);
+  border-radius: 6px;
+}
+
+.user-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-item{
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 16px;
+
+  .bx{
+    font-size: 20px;
+    margin-right: 12px;
+  }
+}
+
+.tdn-none{
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+}

@@ -1,12 +1,10 @@
 import React from 'react';
 import "./Forum.scss";
+import SignUp from './SignUp/SignUp';
 
 function Forum() {
   return (
-    <div className='error'>
-      404 Error:
-      Forum page is not found
-    </div>
+    <SignUp />
   )
 }
 

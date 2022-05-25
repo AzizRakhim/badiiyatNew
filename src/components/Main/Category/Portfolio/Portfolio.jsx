@@ -3,11 +3,13 @@ import "./Portfolio.scss";
 import { useLocation } from 'react-router-dom';
 import obj from '../../../../Object';
 import PortfolioItem from './PortfolioItem/PortfolioItem';
+import Header from '../../../Header/Header';
 
 function Portfolio() {
   let location = useLocation();
   return (
     <>
+      <Header />
       {obj.map((item) => {
         if(item.id === location.pathname.split("/").at(-1)){
           return (
