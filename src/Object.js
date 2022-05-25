@@ -4916,7 +4916,7 @@ let obj = [{
   },
   {
     id: 47,
-    genre: "uzbek",
+    genre: "o'zbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Shuhrat",
     lastName: "Alimov",
