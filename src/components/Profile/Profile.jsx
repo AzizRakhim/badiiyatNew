@@ -14,8 +14,6 @@ function Profile(props) {
         return arr[0][0].bookId != el[0].bookId;
       })
     })
-    // console.log(topArr);
-    // console.log(props.saved);
     props.setSaved(topArr);
   }, [])
 
