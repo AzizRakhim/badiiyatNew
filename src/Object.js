@@ -4355,7 +4355,7 @@ let obj = [{
       }
     ]
   }, {
-    id: 42,
+    id: "42",
     genre: "o'zbek",
     img: "https://imgur.com/fWybOkT.jpg",
     name: "O'tkir",
@@ -4462,7 +4462,7 @@ let obj = [{
     ]
   },
   {
-    id: 43,
+    id: "43",
     genre: "o'zbek",
     img: "https://imgur.com/Lk5moun.jpg",
     name: "Said",
@@ -4575,7 +4575,7 @@ let obj = [{
     ]
   },
   {
-    id: 44,
+    id: "44",
     genre: "o'zbek",
     img: "https://imgur.com/pmxR6iI.jpg",
     name: "Abdulla",
@@ -4688,7 +4688,7 @@ let obj = [{
 
   },
   {
-    id: 45,
+    id: "45",
     genre: "uzbek",
     img: "https://imgur.com/Lnmh2kj.jpg",
     name: "Oybek",
@@ -4801,7 +4801,7 @@ let obj = [{
     ]
   },
   {
-    id:  46,
+    id:  "46",
     genre: "o'zbek",
     img: "https://milliycha.uz/wp-content/uploads/2021/11/ulmas-umarbekov.jpg",
     name: "O'lmas",
@@ -4915,7 +4915,7 @@ let obj = [{
     ]
   },
   {
-    id: 47,
+    id: "47",
     genre: "o'zbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Shuhrat",
@@ -5005,7 +5005,7 @@ let obj = [{
     ]
   },
   {
-    id: 48,
+    id: "48",
     genre: "o'zbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Tog'ay",
@@ -5118,7 +5118,7 @@ let obj = [{
     ]
   },
   {
-    id: 49,
+    id: "49",
     genre: "uzbek",
     img: "https://arboblar.uz/upload/people/n/389ac7371fece8a9be69645de259de470528.jpg",
     name: "Mirkarim",
@@ -5228,7 +5228,7 @@ let obj = [{
       },
     ]
   }, {
-    id: 50,
+    id: "50",
     genre: "uzbek",
     img: "https://imgur.com/fWybOkT.jpg",
     name: "O'tkir",
@@ -5335,7 +5335,7 @@ let obj = [{
     ]
   },
   {
-    id: 51,
+    id: "51",
     genre: "o'zbek",
     img: "https://imgur.com/Lk5moun.jpg",
     name: "Said",
@@ -5448,7 +5448,7 @@ let obj = [{
     ]
   },
   {
-    id: 52,
+    id: "52",
     genre: "o'zbek",
     img: "https://imgur.com/pmxR6iI.jpg",
     name: "Abdulla",
@@ -5561,7 +5561,7 @@ let obj = [{
 
   },
   {
-    id: 53,
+    id: "53",
     genre: "o'zbek",
     img: "https://imgur.com/Lnmh2kj.jpg",
     name: "Oybek",
@@ -5674,7 +5674,7 @@ let obj = [{
     ]
   },
   {
-    id: 54,
+    id: "54",
     genre: "o'zbek",
     img: "https://milliycha.uz/wp-content/uploads/2021/11/ulmas-umarbekov.jpg",
     name: "O'lmas",
@@ -5788,7 +5788,7 @@ let obj = [{
     ]
   },
   {
-    id: 55,
+    id: "55",
     genre: "o'zbek",
     img: "https://imgur.com/tJ0zO8U.jpg",
     name: "Shuhrat",
@@ -5991,7 +5991,7 @@ let obj = [{
     ]
   },
   {
-    id: 56,
+    id: "56",
     genre: "o'zbek",
     img: "https://arboblar.uz/upload/people/n/389ac7371fece8a9be69645de259de470528.jpg",
     name: "Mirkarim",
